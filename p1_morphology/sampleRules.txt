@@ -1,0 +1,7 @@
+1 SUFFIX  s      -    noun -> noun .
+2 SUFFIX  s      -    verb -> verb .
+3 SUFFIX  iest   y    adjective -> adjective .
+4 SUFFIX  y      -    noun -> adjective .
+5 SUFFIX  er     -    verb -> noun .
+6 PREFIX  un     -    adjective -> adjective .
+7 PREFIX  anti   -    noun -> adjective .
