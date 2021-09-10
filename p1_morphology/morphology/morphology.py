@@ -116,7 +116,7 @@ def ApplyRule(word, rule):
 
     return (new_word, new_pos)
                 
-def RunMorphologyOnWord(dictionary, rulebook, word, original_word, path_so_far, is_debug=False):
+def RunMorphologyOnWord(dictionary, rulebook, word, original_word, path_so_far):
 
     results = []
 
