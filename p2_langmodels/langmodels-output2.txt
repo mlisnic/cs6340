@@ -1,0 +1,36 @@
+S = Wolf
+
+Unsmoothed Unigrams, logprob(S) = -11.4522
+Unsmoothed Bigrams, logprob(S) = -12.4375
+Smoothed Bigrams, logprob(S) = -12.8260
+
+S = In the jungle
+
+Unsmoothed Unigrams, logprob(S) = -22.0357
+Unsmoothed Bigrams, logprob(S) = -15.3101
+Smoothed Bigrams, logprob(S) = -18.9389
+
+S = Rustle in the grass .
+
+Unsmoothed Unigrams, logprob(S) = -43.1179
+Unsmoothed Bigrams, logprob(S) = undefined
+Smoothed Bigrams, logprob(S) = -51.7462
+
+S = What could go wrong ?
+
+Unsmoothed Unigrams, logprob(S) = -48.2676
+Unsmoothed Bigrams, logprob(S) = -35.3043
+Smoothed Bigrams, logprob(S) = -55.0859
+
+S = I swear I am not making this up .
+
+Unsmoothed Unigrams, logprob(S) = -82.8339
+Unsmoothed Bigrams, logprob(S) = undefined
+Smoothed Bigrams, logprob(S) = -97.0172
+
+S = But old Mr. Toad will leave one day .
+
+Unsmoothed Unigrams, logprob(S) = -78.5045
+Unsmoothed Bigrams, logprob(S) = undefined
+Smoothed Bigrams, logprob(S) = -82.1001
+

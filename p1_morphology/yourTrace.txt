@@ -1,0 +1,22 @@
+WORD=utah	POS=noun	ROOT=utah	SOURCE=default	PATH=-
+
+WORD=swept	POS=verb	ROOT=sweep	SOURCE=dictionary	PATH=-
+
+WORD=sweep	POS=noun	ROOT=sweep	SOURCE=dictionary	PATH=-
+WORD=sweep	POS=verb	ROOT=sweep	SOURCE=dictionary	PATH=-
+
+WORD=sweeps	POS=noun	ROOT=sweep	SOURCE=morphology	PATH=1
+WORD=sweeps	POS=verb	ROOT=sweep	SOURCE=morphology	PATH=2
+
+WORD=unsweep	POS=noun	ROOT=unsweep	SOURCE=default	PATH=-
+
+WORD=hairy	POS=adjective	ROOT=hair	SOURCE=morphology	PATH=4
+
+WORD=hairiest	POS=adjective	ROOT=hair	SOURCE=morphology	PATH=4,3
+
+WORD=unwalk	POS=noun	ROOT=unwalk	SOURCE=default	PATH=-
+
+WORD=walkers	POS=noun	ROOT=walk	SOURCE=morphology	PATH=5,1
+
+WORD=antiwalkers	POS=adjective	ROOT=walk	SOURCE=morphology	PATH=5,1,7
+
