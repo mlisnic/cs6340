@@ -1,0 +1,29 @@
+B-LOC  NNP    Israel
+O  NN    television
+O  VBD    rejected
+O  DT    the
+O  NN    skit
+O  IN    by
+O  DT    the
+O  NN    comedian
+B-PER  NNP    Mr.
+I-PER  NNP    Tuvia
+I-PER  NNP    Tzafir
+
+
+O  IN    During
+B-ORG  NNP    Security
+I-ORG  NNP    Council
+O  VBP    game
+O  NNP    Tuesday
+O  NN    night
+O  IN    after
+O  DT    the
+B-LOC  NNP    U.S.
+B-ORG  NN    6th
+I-ORG  NNP    Fleet
+O  VBD    played
+O  .    .
+
+
+

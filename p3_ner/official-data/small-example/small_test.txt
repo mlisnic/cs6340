@@ -1,0 +1,23 @@
+B-PER  NNP    Dr.
+I-PER  NNP    Valentino
+I-PER  NNP    Rossi
+O  VBD    won
+O  DT    the
+B-LOC  NN    race
+O  .    .
+
+
+O  PRP    You
+O  MD    can
+O  VB    find
+O  DT    a
+O  NN    lot
+O  IN    of
+O  NN    stuff
+O  IN    at
+B-ORG  NNP    Walmart
+I-ORG  NNP    Co
+O  .    .
+
+
+

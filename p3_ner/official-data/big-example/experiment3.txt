@@ -1,0 +1,26 @@
+Running Logistic Regression classification algorithm...
+convergence after 11 epochs took 130 seconds
+              precision    recall  f1-score   support
+
+       B-PER       0.82      0.68      0.74       871
+       I-PER       0.92      0.77      0.84      1041
+       B-ORG       0.80      0.53      0.64       187
+       I-ORG       0.45      0.64      0.53       153
+       B-LOC       0.65      0.87      0.75       598
+       I-LOC       0.86      0.41      0.55       485
+           O       0.96      0.99      0.97     11196
+
+    accuracy                           0.92     14531
+   macro avg       0.78      0.70      0.72     14531
+weighted avg       0.92      0.92      0.92     14531
+
+Epoch 1, change: 1.00000000
+Epoch 2, change: 0.74974614
+Epoch 3, change: 0.49093495
+Epoch 4, change: 0.48227016
+Epoch 5, change: 0.34077811
+Epoch 6, change: 0.28009157
+Epoch 7, change: 0.20705519
+Epoch 8, change: 0.14231445
+Epoch 9, change: 0.12203731
+Epoch 10, change: 0.12315875
