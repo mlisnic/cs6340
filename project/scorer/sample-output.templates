@@ -1,0 +1,22 @@
+TEXT: 1
+ACQUIRED: "XYZ Corp"
+ACQBUS: "software"
+ACQLOC: "SLC"
+DLRAMT: "$50 million"
+PURCHASER: "John Smith"
+PURCHASER: "Mary Simmons"
+PURCHASER: "their partners"
+PURCHASER: "investors"
+SELLER: ---
+STATUS: "in progress"
+
+TEXT: 2
+ACQUIRED: "NLP Software Systems"
+ACQUIRED: "NLP Interfaces Inc"
+ACQUIRED: "Google"
+ACQBUS: "NLP"
+ACQLOC: ---
+DLRAMT: "profitable"
+PURCHASER: ---
+SELLER: ---
+STATUS: ---

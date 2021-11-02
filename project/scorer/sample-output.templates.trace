@@ -1,0 +1,97 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           1
+ACQUIRED:       "XYZ Corp"
+ACQBUS:         "amazing software" / "software"
+ACQLOC:         "Salt Lake City" / "SLC"
+                "Ogden"
+DLRAMT:         "$50 million"
+PURCHASER:      ---
+SELLER:         ---
+STATUS:         "in progress"
+
+     SYSTEM OUTPUT 
+
+TEXT:           1
+ACQUIRED:       "XYZ Corp"
+ACQBUS:         "software"
+ACQLOC:         "SLC"
+DLRAMT:         "$50 million"
+PURCHASER:      "John Smith"
+                "Mary Simmons"
+                "their partners"
+                "investors"
+SELLER:         ---
+STATUS:         "in progress"
+
+     SCORES for 1
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (1/1)	   1.00 (1/1)         1.00
+ACQBUS          1.00 (1/1)	   1.00 (1/1)         1.00
+ACQLOC          0.50 (1/2)	   1.00 (1/1)         0.67
+DLRAMT          1.00 (1/1)	   1.00 (1/1)         1.00
+PURCHASER       0.00 (0/0)	   0.00 (0/4)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.83 (5/6)	   0.56 (5/9)         0.67
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+     GOLD ANSWER KEY 
+
+TEXT:           2
+ACQUIRED:       "NLP Software Systems"
+                "NLP Interfaces Inc"
+ACQBUS:         "natural language processing" / "NLP"
+ACQLOC:         ---
+DLRAMT:         ---
+PURCHASER:      "Google"
+SELLER:         ---
+STATUS:         ---
+
+     SYSTEM OUTPUT 
+
+TEXT:           2
+ACQUIRED:       "NLP Software Systems"
+                "NLP Interfaces Inc"
+                "Google"
+ACQBUS:         "NLP"
+ACQLOC:         ---
+DLRAMT:         "profitable"
+PURCHASER:      ---
+SELLER:         ---
+STATUS:         ---
+
+     SCORES for 2
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (2/2)	   0.67 (2/3)         0.80
+ACQBUS          1.00 (1/1)	   1.00 (1/1)         1.00
+ACQLOC          0.00 (0/0)	   0.00 (0/0)         0.00
+DLRAMT          0.00 (0/0)	   0.00 (0/1)         0.00
+PURCHASER       0.00 (0/1)	   0.00 (0/0)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/0)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.75 (3/4)	   0.60 (3/5)         0.67
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+     SCORES for ALL Templates
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        1.00 (3/3)	   0.75 (3/4)         0.86
+ACQBUS          1.00 (2/2)	   1.00 (2/2)         1.00
+ACQLOC          0.50 (1/2)	   1.00 (1/1)         0.67
+DLRAMT          1.00 (1/1)	   0.50 (1/2)         0.67
+PURCHASER       0.00 (0/1)	   0.00 (0/4)         0.00
+SELLER          0.00 (0/0)	   0.00 (0/0)         0.00
+STATUS          1.00 (1/1)	   1.00 (1/1)         1.00
+--------        --------------     --------------     ----
+TOTAL           0.80 (8/10)	   0.57 (8/14)        0.67
